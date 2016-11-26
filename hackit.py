@@ -189,6 +189,7 @@ class DummyFore:
         self.BLACK=''
         self.GREEN=''
         self.RED=''
+        self.BLUE=''
 if platform == "win32":
     Fore=DummyFore()
 main()
