@@ -41,8 +41,7 @@ def openfile(files, fil):
     return fil + ":\tNo such file in server."
 
 def hlp(args):
-    if len(args) == 0:
-        return "This is HackNet port 59. Open welcome.txt, then proceed to connect to Tutorial server, \'tut.server\'."
+    return "This is HackNet port 59. Open welcome.txt, then proceed to connect to Tutorial server, \'tut.server\'."
 
 def stringinate(lis):
     ret = ""
