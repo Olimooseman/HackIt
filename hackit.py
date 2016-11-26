@@ -1,5 +1,6 @@
 
 from colorama import Fore
+from sys import platform
 from string import digits
 
 def encrypt(string):
@@ -183,6 +184,12 @@ def main():
         if len(thingy) == 3:
             server = thingy[1]
             curfiles = thingy[2]
-
+class DummyFore:
+    def __init__(self):
+        self.BLACK=''
+        self.GREEN=''
+        self.RED=''
+if platform == "win32":
+    Fore=DummyFore()
 main()
 print(Fore.BLACK + "\n\n\n\nQuitting so soon? Coward.\n\n\n\n\nI'll be watching you.")
