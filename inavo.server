@@ -1,0 +1,42 @@
+2
+tips
+stream
+4
+Data Stream -start-
+Hey - you should probably check out their mail server.
+Use the 'port' command. Port 59 is the mail port, so your command would probably be "port 59".
+Data Stream -end-
+stuck?
+txt
+6
+Psst...
+
+If the firewall doesn't let you through, you have to crack its password.
+Connect to your home server - see how there is a program called 'crack.prog'?
+That program, when run, can crack any password.
+If you're having trouble running it, type 'run crack.prog inavofiles.firewall.server'
+1
+59
+2
+Check this out!
+3
+Hey Darren - just wanted to show you this funny video!
+Isn't it hilarious?
+:)
+Web address
+8
+Hello Mr. Colegate,
+
+This is just confirmation of your web server purchase.
+You have chosen to add it to 'inavo.server' - you can now host, or make, whatever you want on it.
+To connect to it, all you have to do is type in "web inavo.server"!
+
+Yours sincerely,
+The Web Address Company
+6
+Hello, and welcome to...
+Inavo!
+A company that you should definitely invest in.
+
+To all employees - to get the root password, just open the file 'root.txt' in 'inavofiles.firewall.server'.
+Don't worry - it's a firewall server that will only let us through. :)
