@@ -161,7 +161,7 @@ def register(userlis, server, curfiles):
             return [web(userlis[1])]
         elif userlis[0] == "disconnect" or userlis[0] == "bye":
             return ["", "home.server", connecttoserver("home.server")]
-        elif not userlis[0] == "q":
+        elif not userlis[0] == "q" and not userlis[0] == "quit":
             return [Fore.RED + userlis[0] + ":\tNot a valid command"]
     return []
 
